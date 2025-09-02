@@ -1,8 +1,8 @@
 from shiny import reactive
 from shiny.express import ui, render, input
 
-ui.input_slider("s1", "Slider 1", min=0, max=10, value=5)
-ui.input_slider("s2", "Slider 2", min=0, max=100, value=50)
+ui.input_slider("s1", "Slider 1a", min=0, max=10, value=5)
+ui.input_slider("s2", "Slider 2B", min=0, max=100, value=50)
 
 
 # This output only reacts to the first slider
